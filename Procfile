@@ -1,1 +1,1 @@
-web: python serve.py
+web: conda install graphviz && python serve.py
