@@ -1,0 +1,4407 @@
+{
+    "affine": [
+        "rasterio"
+    ],
+    "alabaster": [
+        "sphinx"
+    ],
+    "amqp": [
+        "kombu"
+    ],
+    "anaconda-client": [
+        "conda-build-all",
+        "nb_anacondacloud",
+        "obvious-ci"
+    ],
+    "antispoofing.utils": [
+        "bob.db.avspoof",
+        "bob.db.casia_fasd",
+        "bob.db.msu_mfsd_mod",
+        "bob.db.replay"
+    ],
+    "anyjson": [
+        "kombu"
+    ],
+    "apache-libcloud": [
+        "salt"
+    ],
+    "appdirs": [
+        "os-client-config",
+        "pyomo",
+        "pytools",
+        "ulmo"
+    ],
+    "appnope": [
+        "ipython"
+    ],
+    "apptools": [
+        "envisage"
+    ],
+    "argcomplete": [
+        "flo"
+    ],
+    "args": [
+        "clint"
+    ],
+    "arm_pyart": [
+        "artview"
+    ],
+    "arrow": [
+        "jinja2-time"
+    ],
+    "astroid": [
+        "pylint",
+        "pylint-plugin-utils",
+        "requirements-detector"
+    ],
+    "astropy": [
+        "glueviz",
+        "healpy",
+        "poliastro",
+        "reproject",
+        "sunpy",
+        "wcsaxes"
+    ],
+    "attrs": [
+        "effect"
+    ],
+    "audioread": [
+        "librosa"
+    ],
+    "autoconf": [
+        "automake"
+    ],
+    "autograd": [
+        "pycalphad"
+    ],
+    "avro": [
+        "cyavro"
+    ],
+    "azure-common": [
+        "azure-mgmt-common",
+        "azure-servicebus",
+        "azure-servicemanagement-legacy",
+        "azure-storage"
+    ],
+    "azure-mgmt": [
+        "azure"
+    ],
+    "azure-mgmt-common": [
+        "azure-mgmt-compute",
+        "azure-mgmt-network",
+        "azure-mgmt-resource",
+        "azure-mgmt-storage"
+    ],
+    "azure-mgmt-compute": [
+        "azure-mgmt"
+    ],
+    "azure-mgmt-network": [
+        "azure-mgmt"
+    ],
+    "azure-mgmt-nspkg": [
+        "azure-mgmt-common"
+    ],
+    "azure-mgmt-resource": [
+        "azure-mgmt"
+    ],
+    "azure-mgmt-storage": [
+        "azure-mgmt"
+    ],
+    "azure-nspkg": [
+        "azure-common",
+        "azure-mgmt-nspkg",
+        "azure-storage"
+    ],
+    "azure-servicebus": [
+        "azure"
+    ],
+    "azure-servicemanagement-legacy": [
+        "azure"
+    ],
+    "azure-storage": [
+        "azure"
+    ],
+    "babel": [
+        "flask-babel",
+        "flask-babelex",
+        "flower",
+        "sphinx"
+    ],
+    "backports.shutil_get_terminal_size": [
+        "ipython"
+    ],
+    "basemap": [
+        "basemap-data-hires",
+        "mss",
+        "pyhum",
+        "pyresample"
+    ],
+    "bcrypt": [
+        "flask-bcrypt",
+        "girder"
+    ],
+    "beautiful-soup": [
+        "sunpy"
+    ],
+    "beautifulsoup4": [
+        "pyoos",
+        "ulmo"
+    ],
+    "betamax": [
+        "betamax-matchers"
+    ],
+    "biggus": [
+        "iris"
+    ],
+    "billiard": [
+        "celery"
+    ],
+    "binaryornot": [
+        "cookiecutter"
+    ],
+    "bitarray": [
+        "impyla"
+    ],
+    "blas": [
+        "bob.math",
+        "cvxopt",
+        "hmat-oss",
+        "numpy",
+        "openturns",
+        "python-spams",
+        "scikit-learn",
+        "scipy",
+        "simbody",
+        "suitesparse"
+    ],
+    "blinker": [
+        "pelican"
+    ],
+    "bob.ap": [
+        "bob",
+        "bob.bio.spear"
+    ],
+    "bob.bio.base": [
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video"
+    ],
+    "bob.bio.face": [
+        "bob.bio.video"
+    ],
+    "bob.blitz": [
+        "bob",
+        "bob.ap",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.core",
+        "bob.io.audio",
+        "bob.io.base",
+        "bob.io.image",
+        "bob.io.matlab",
+        "bob.io.video",
+        "bob.ip.base",
+        "bob.ip.color",
+        "bob.ip.draw",
+        "bob.ip.gabor",
+        "bob.ip.optflow.hornschunck",
+        "bob.ip.optflow.liu",
+        "bob.learn.activation",
+        "bob.learn.boosting",
+        "bob.learn.em",
+        "bob.learn.libsvm",
+        "bob.learn.linear",
+        "bob.learn.mlp",
+        "bob.measure",
+        "bob.sp"
+    ],
+    "bob.core": [
+        "bob",
+        "bob.ap",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.db.verification.filelist",
+        "bob.db.verification.utils",
+        "bob.io.audio",
+        "bob.io.base",
+        "bob.io.image",
+        "bob.io.matlab",
+        "bob.io.video",
+        "bob.ip.base",
+        "bob.ip.color",
+        "bob.ip.gabor",
+        "bob.ip.optflow.hornschunck",
+        "bob.learn.activation",
+        "bob.learn.boosting",
+        "bob.learn.em",
+        "bob.learn.libsvm",
+        "bob.learn.linear",
+        "bob.learn.mlp",
+        "bob.math",
+        "bob.measure",
+        "bob.sp"
+    ],
+    "bob.db.atnt": [
+        "bob",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.video"
+    ],
+    "bob.db.base": [
+        "bob",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.db.arface",
+        "bob.db.atnt",
+        "bob.db.atvskeystroke",
+        "bob.db.avspoof",
+        "bob.db.banca",
+        "bob.db.biosecure",
+        "bob.db.biosecurid.face",
+        "bob.db.casia_fasd",
+        "bob.db.casme2",
+        "bob.db.caspeal",
+        "bob.db.frgc",
+        "bob.db.gbu",
+        "bob.db.iris",
+        "bob.db.kboc16",
+        "bob.db.lfw",
+        "bob.db.livdet2013",
+        "bob.db.mnist",
+        "bob.db.mobio",
+        "bob.db.msu_mfsd_mod",
+        "bob.db.multipie",
+        "bob.db.nist_sre12",
+        "bob.db.replay",
+        "bob.db.scface",
+        "bob.db.utfvp",
+        "bob.db.verification.filelist",
+        "bob.db.verification.utils",
+        "bob.db.voxforge",
+        "bob.db.wine",
+        "bob.db.xm2vts",
+        "bob.db.youtube"
+    ],
+    "bob.db.iris": [
+        "bob"
+    ],
+    "bob.db.mnist": [
+        "bob"
+    ],
+    "bob.db.verification.filelist": [
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.db.voxforge"
+    ],
+    "bob.db.verification.utils": [
+        "bob",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.db.arface",
+        "bob.db.atnt",
+        "bob.db.atvskeystroke",
+        "bob.db.avspoof",
+        "bob.db.banca",
+        "bob.db.biosecure",
+        "bob.db.biosecurid.face",
+        "bob.db.casme2",
+        "bob.db.caspeal",
+        "bob.db.frgc",
+        "bob.db.gbu",
+        "bob.db.kboc16",
+        "bob.db.lfw",
+        "bob.db.mobio",
+        "bob.db.multipie",
+        "bob.db.nist_sre12",
+        "bob.db.scface",
+        "bob.db.utfvp",
+        "bob.db.verification.filelist",
+        "bob.db.voxforge",
+        "bob.db.xm2vts",
+        "bob.db.youtube"
+    ],
+    "bob.db.wine": [
+        "bob"
+    ],
+    "bob.extension": [
+        "bob",
+        "bob.ap",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.blitz",
+        "bob.db.base",
+        "bob.io.audio",
+        "bob.io.base",
+        "bob.io.image",
+        "bob.io.matlab",
+        "bob.io.video",
+        "bob.ip.base",
+        "bob.ip.color",
+        "bob.ip.draw",
+        "bob.ip.gabor",
+        "bob.ip.optflow.hornschunck",
+        "bob.ip.optflow.liu",
+        "bob.learn.activation",
+        "bob.learn.boosting",
+        "bob.learn.em",
+        "bob.learn.libsvm",
+        "bob.learn.linear",
+        "bob.learn.mlp",
+        "bob.measure",
+        "bob.sp"
+    ],
+    "bob.io.audio": [
+        "bob"
+    ],
+    "bob.io.base": [
+        "bob",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.db.avspoof",
+        "bob.db.banca",
+        "bob.db.base",
+        "bob.db.biosecurid.face",
+        "bob.db.iris",
+        "bob.db.livdet2013",
+        "bob.db.utfvp",
+        "bob.db.verification.filelist",
+        "bob.db.verification.utils",
+        "bob.db.youtube",
+        "bob.io.audio",
+        "bob.io.image",
+        "bob.io.matlab",
+        "bob.io.video",
+        "bob.ip.base",
+        "bob.ip.color",
+        "bob.ip.gabor",
+        "bob.ip.optflow.hornschunck",
+        "bob.ip.optflow.liu",
+        "bob.learn.activation",
+        "bob.learn.boosting",
+        "bob.learn.em",
+        "bob.learn.libsvm",
+        "bob.learn.linear",
+        "bob.learn.mlp",
+        "bob.measure"
+    ],
+    "bob.io.image": [
+        "bob",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.video",
+        "bob.ip.facedetect",
+        "bob.ip.optflow.liu"
+    ],
+    "bob.io.matlab": [
+        "bob",
+        "bob.db.youtube",
+        "bob.io.audio"
+    ],
+    "bob.io.video": [
+        "bob",
+        "bob.bio.video",
+        "bob.ip.optflow.liu"
+    ],
+    "bob.ip.base": [
+        "bob",
+        "bob.bio.face",
+        "bob.bio.video",
+        "bob.ip.facedetect"
+    ],
+    "bob.ip.color": [
+        "antispoofing.utils",
+        "bob",
+        "bob.bio.face",
+        "bob.bio.video",
+        "bob.ip.facedetect",
+        "bob.ip.optflow.hornschunck",
+        "bob.ip.optflow.liu"
+    ],
+    "bob.ip.draw": [
+        "antispoofing.utils",
+        "bob",
+        "bob.bio.face",
+        "bob.bio.video",
+        "bob.ip.facedetect"
+    ],
+    "bob.ip.facedetect": [
+        "bob",
+        "bob.bio.face",
+        "bob.bio.video"
+    ],
+    "bob.ip.flandmark": [
+        "bob.bio.face",
+        "bob.bio.video"
+    ],
+    "bob.ip.gabor": [
+        "bob",
+        "bob.bio.face",
+        "bob.bio.video"
+    ],
+    "bob.ip.optflow.hornschunck": [
+        "bob"
+    ],
+    "bob.ip.optflow.liu": [
+        "bob"
+    ],
+    "bob.learn.activation": [
+        "bob",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.learn.em",
+        "bob.learn.linear",
+        "bob.learn.mlp"
+    ],
+    "bob.learn.boosting": [
+        "bob",
+        "bob.bio.face",
+        "bob.bio.video",
+        "bob.ip.facedetect"
+    ],
+    "bob.learn.em": [
+        "bob",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video"
+    ],
+    "bob.learn.libsvm": [
+        "antispoofing.utils",
+        "bob"
+    ],
+    "bob.learn.linear": [
+        "antispoofing.utils",
+        "bob",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.db.iris",
+        "bob.learn.em"
+    ],
+    "bob.learn.mlp": [
+        "bob"
+    ],
+    "bob.math": [
+        "bob",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.ip.base",
+        "bob.learn.em",
+        "bob.learn.linear",
+        "bob.learn.mlp",
+        "bob.measure"
+    ],
+    "bob.measure": [
+        "antispoofing.utils",
+        "bob",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.db.iris"
+    ],
+    "bob.sp": [
+        "bob",
+        "bob.ap",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.ip.base",
+        "bob.ip.gabor",
+        "bob.ip.optflow.hornschunck",
+        "bob.learn.em"
+    ],
+    "bokeh": [
+        "dask",
+        "distributed",
+        "holoviews"
+    ],
+    "boost": [
+        "bob.blitz",
+        "bob.core",
+        "bob.io.audio",
+        "bob.io.base",
+        "bob.io.image",
+        "bob.io.matlab",
+        "bob.io.video",
+        "bob.ip.base",
+        "bob.ip.color",
+        "bob.ip.facedetect",
+        "bob.ip.gabor",
+        "bob.learn.activation",
+        "bob.learn.boosting",
+        "bob.learn.em",
+        "bob.learn.libsvm",
+        "bob.learn.linear",
+        "bob.learn.mlp",
+        "bob.math",
+        "bob.measure",
+        "caffe",
+        "cgal",
+        "eccodes",
+        "libhdfs3",
+        "libradolan",
+        "pyopcode",
+        "python-eccodes",
+        "rank_filter",
+        "swig",
+        "vigra",
+        "zwatershed"
+    ],
+    "boto": [
+        "girder",
+        "psiturk",
+        "qds-sdk"
+    ],
+    "boto3": [
+        "dask-ec2",
+        "distributed",
+        "s3fs"
+    ],
+    "botocore": [
+        "awscli",
+        "s3transfer"
+    ],
+    "bottlechest": [
+        "orange3"
+    ],
+    "bottleneck": [
+        "xarray"
+    ],
+    "brewer2mpl": [
+        "ggplot"
+    ],
+    "bsddb": [
+        "sunpy"
+    ],
+    "bz2file": [
+        "scikit-bio"
+    ],
+    "bzip2": [
+        "libarchive"
+    ],
+    "ca-certificates": [
+        "openssl"
+    ],
+    "cachecontrol": [
+        "scikit-bio"
+    ],
+    "cairo": [
+        "cairomm",
+        "harfbuzz",
+        "pyferret",
+        "texlive-core"
+    ],
+    "cartopy": [
+        "gridgeo",
+        "iris"
+    ],
+    "cdat-lite": [
+        "cfchecker"
+    ],
+    "cdo": [
+        "python-cdo"
+    ],
+    "celery": [
+        "django-celery",
+        "flower",
+        "girder"
+    ],
+    "certifi": [
+        "apache-libcloud",
+        "setuptools",
+        "tornado"
+    ],
+    "cf_units": [
+        "compliance-checker",
+        "iris",
+        "ocgis"
+    ],
+    "chameleon": [
+        "mss"
+    ],
+    "chardet": [
+        "binaryornot",
+        "orange3"
+    ],
+    "cherrypy": [
+        "girder",
+        "spyre",
+        "tangelo"
+    ],
+    "click": [
+        "click-plugins",
+        "cookiecutter",
+        "dask-ec2",
+        "distributed",
+        "emperor",
+        "mkdocs",
+        "rq",
+        "snuggs",
+        "statuspage"
+    ],
+    "click-plugins": [
+        "fiona",
+        "rasterio"
+    ],
+    "cligj": [
+        "fiona",
+        "rasterio"
+    ],
+    "clint": [
+        "legit"
+    ],
+    "cloudpickle": [
+        "dask",
+        "distributed"
+    ],
+    "clyent": [
+        "anaconda-client"
+    ],
+    "cmake": [
+        "cotire"
+    ],
+    "cmd2": [
+        "cliff",
+        "psiturk"
+    ],
+    "colorama": [
+        "awscli",
+        "qrcode"
+    ],
+    "compliance-checker": [
+        "cc-plugin-glider",
+        "cc-plugin-ncei"
+    ],
+    "conda": [
+        "conda-build-all",
+        "conda-build",
+        "conda-execute",
+        "conda-smithy",
+        "conda-testenv",
+        "conda-workon",
+        "obvious-ci"
+    ],
+    "conda-build": [
+        "conda-build-all",
+        "conda-smithy",
+        "conda-testenv",
+        "obvious-ci"
+    ],
+    "conda-build-all": [
+        "conda-smithy"
+    ],
+    "conda-env": [
+        "conda"
+    ],
+    "configobj": [
+        "apptools",
+        "pyresample"
+    ],
+    "configurable-http-proxy": [
+        "jupyterhub"
+    ],
+    "contextlib2": [
+        "glymur",
+        "scikit-bio"
+    ],
+    "coverage": [
+        "nosexcover",
+        "pytest-cov",
+        "python-coveralls"
+    ],
+    "cryptography": [
+        "asyncssh",
+        "doctr"
+    ],
+    "csa": [
+        "gridutils"
+    ],
+    "cssselect": [
+        "premailer"
+    ],
+    "cssutils": [
+        "premailer"
+    ],
+    "ctd": [
+        "oceans"
+    ],
+    "curl": [
+        "gdal",
+        "git",
+        "libdap4",
+        "libnetcdf",
+        "pynio"
+    ],
+    "cycler": [
+        "ggplot",
+        "matplotlib"
+    ],
+    "cyordereddict": [
+        "xarray"
+    ],
+    "cython": [
+        "resampy",
+        "slda"
+    ],
+    "cythongsl": [
+        "slda"
+    ],
+    "dask": [
+        "distributed",
+        "hyperspy",
+        "pycalphad",
+        "pyhum",
+        "xarray"
+    ],
+    "decorator": [
+        "ipyparallel",
+        "ipython",
+        "librosa",
+        "obspy",
+        "pytools",
+        "scikit-bio",
+        "traitlets",
+        "valideer"
+    ],
+    "descartes": [
+        "geopandas"
+    ],
+    "dill": [
+        "hyperspy",
+        "pycalphad"
+    ],
+    "diskcache": [
+        "girder-client"
+    ],
+    "distribute": [
+        "m2crypto"
+    ],
+    "distributed": [
+        "dask",
+        "pycalphad"
+    ],
+    "django": [
+        "django-autoslug",
+        "django-debug-toolbar",
+        "django-enumfields",
+        "django-extensions",
+        "django-grappelli",
+        "django-redis-cache",
+        "django-rest-hooks",
+        "django-taggit",
+        "django-typed-models",
+        "django_polymorphic",
+        "spyne"
+    ],
+    "docopt": [
+        "circleci-helpers",
+        "ckanapi",
+        "psiturk",
+        "pykwalify",
+        "python-hdfs",
+        "yaml2ncml"
+    ],
+    "docutils": [
+        "awscli",
+        "botocore",
+        "orange3",
+        "pelican",
+        "pyroma",
+        "sphinx",
+        "sphinxjp.themecore"
+    ],
+    "dxchange": [
+        "tomopy"
+    ],
+    "dxfile": [
+        "dxchange"
+    ],
+    "eccodes": [
+        "python-eccodes"
+    ],
+    "ecmwf_grib": [
+        "pygrib",
+        "python-ecmwf_grib"
+    ],
+    "edffile": [
+        "dxchange"
+    ],
+    "elasticsearch": [
+        "elasticsearch-dsl"
+    ],
+    "emcee": [
+        "lmfit"
+    ],
+    "entrypoints": [
+        "nbconvert"
+    ],
+    "esmf": [
+        "esmpy"
+    ],
+    "execnet": [
+        "mss",
+        "pytest-xdist"
+    ],
+    "expat": [
+        "gdal",
+        "git",
+        "libarchive",
+        "libgd",
+        "nco",
+        "udunits2"
+    ],
+    "fake-factory": [
+        "psiturk"
+    ],
+    "fastcache": [
+        "sympy"
+    ],
+    "fasteners": [
+        "zarr"
+    ],
+    "feedgenerator": [
+        "pelican"
+    ],
+    "ffmpeg": [
+        "audioread",
+        "bob.io.video"
+    ],
+    "fftw": [
+        "cvxopt",
+        "nfft",
+        "otfftw",
+        "pyfftw",
+        "vigra"
+    ],
+    "filelock": [
+        "cyavro"
+    ],
+    "findspark": [
+        "spylon"
+    ],
+    "fiona": [
+        "geopandas",
+        "gridgeo",
+        "ocgis",
+        "paegan-transport",
+        "pygridtools",
+        "pyoos",
+        "rasterstats"
+    ],
+    "flake8": [
+        "pep8-naming"
+    ],
+    "flann": [
+        "pyflann"
+    ],
+    "flask": [
+        "flask-babel",
+        "flask-babelex",
+        "flask-bcrypt",
+        "flask-cache",
+        "flask-httpauth",
+        "flask-login",
+        "flask-oauthlib",
+        "flask-sqlalchemy",
+        "flask-wtf",
+        "psiturk"
+    ],
+    "flopy": [
+        "modflow2netcdf"
+    ],
+    "fontconfig": [
+        "cairo",
+        "libgd",
+        "pango"
+    ],
+    "freetype": [
+        "cairo",
+        "fontconfig",
+        "graphviz",
+        "harfbuzz",
+        "libgd",
+        "matplotlib",
+        "pango",
+        "pillow",
+        "qt",
+        "texlive-core"
+    ],
+    "freexl": [
+        "gdal",
+        "libspatialite"
+    ],
+    "freezegun": [
+        "ulmo"
+    ],
+    "funcsigs": [
+        "nipype"
+    ],
+    "future": [
+        "anypytools",
+        "autograd",
+        "cookiecutter",
+        "emperor",
+        "metafone",
+        "nipype",
+        "numpy-indexed",
+        "obspy",
+        "probableparsing",
+        "scikit-bio",
+        "ulmo",
+        "usaddress",
+        "vertica-python",
+        "vtk"
+    ],
+    "futures": [
+        "apscheduler",
+        "flower"
+    ],
+    "fuzzywuzzy": [
+        "psiturk"
+    ],
+    "g2clib": [
+        "pynio"
+    ],
+    "gcc": [
+        "mpich"
+    ],
+    "gdal": [
+        "fiona",
+        "geopandas",
+        "pynio",
+        "rasterio",
+        "rasterstats",
+        "rios",
+        "tuiview",
+        "wradlib"
+    ],
+    "genshi": [
+        "pydap"
+    ],
+    "geojson": [
+        "girder",
+        "paegan-transport",
+        "ulmo"
+    ],
+    "geolinks": [
+        "pycsw"
+    ],
+    "geopy": [
+        "geopandas"
+    ],
+    "geos": [
+        "basemap",
+        "gdal",
+        "libspatialite",
+        "shapely"
+    ],
+    "gettext": [
+        "glib"
+    ],
+    "gflags": [
+        "caffe"
+    ],
+    "ghp-import": [
+        "pelican"
+    ],
+    "giflib": [
+        "bob.io.image",
+        "gdal"
+    ],
+    "gitdb": [
+        "gitpython"
+    ],
+    "github3.py": [
+        "geojsonio"
+    ],
+    "gitpython": [
+        "conda-build-all",
+        "conda-smithy",
+        "legit",
+        "psiturk"
+    ],
+    "glib": [
+        "harfbuzz",
+        "libxmlpp"
+    ],
+    "glibmm": [
+        "libxmlpp"
+    ],
+    "glog": [
+        "caffe"
+    ],
+    "glpk": [
+        "cvxopt"
+    ],
+    "glueviz": [
+        "glue-vispy-viewers"
+    ],
+    "glymur": [
+        "sunpy"
+    ],
+    "gmp": [
+        "cloog",
+        "glpk",
+        "gmpy2",
+        "isl",
+        "mpc",
+        "mpfr",
+        "stack",
+        "symengine",
+        "texlive-core"
+    ],
+    "gnureadline": [
+        "metakernel",
+        "psiturk"
+    ],
+    "gpxpy": [
+        "srtm.py"
+    ],
+    "greenlet": [
+        "eventlet"
+    ],
+    "gridgen": [
+        "pygridgen",
+        "pygridtools"
+    ],
+    "gridutils": [
+        "gridgen"
+    ],
+    "gsl": [
+        "cvxopt",
+        "cythongsl",
+        "nco",
+        "pypolyagamma",
+        "slda"
+    ],
+    "gsw": [
+        "ctd",
+        "oceans"
+    ],
+    "gunicorn": [
+        "psiturk"
+    ],
+    "h5netcdf": [
+        "xarray"
+    ],
+    "h5py": [
+        "anypytools",
+        "caffe",
+        "dxchange",
+        "dxfile",
+        "glueviz",
+        "h5netcdf",
+        "hyperspy",
+        "keras",
+        "nibabel",
+        "pynco",
+        "pyseidon",
+        "wradlib",
+        "yt",
+        "zwatershed"
+    ],
+    "hachoir-core": [
+        "hachoir-metadata",
+        "hachoir-parser"
+    ],
+    "hachoir-parser": [
+        "hachoir-metadata"
+    ],
+    "harfbuzz": [
+        "pango"
+    ],
+    "hdf4": [
+        "gdal",
+        "hdfeos2",
+        "libnetcdf",
+        "pyhdf",
+        "pynio"
+    ],
+    "hdf5": [
+        "bob.io.base",
+        "caffe",
+        "flann",
+        "gdal",
+        "h5py",
+        "hdfeos5",
+        "kealib",
+        "libmatio",
+        "libnetcdf",
+        "nco",
+        "netcdf4",
+        "pynio",
+        "pytables",
+        "vigra"
+    ],
+    "hdfeos2": [
+        "pynio"
+    ],
+    "hdfeos5": [
+        "pynio"
+    ],
+    "helper": [
+        "rejected"
+    ],
+    "hmat-oss": [
+        "openturns"
+    ],
+    "html5lib": [
+        "ulmo"
+    ],
+    "httplib2": [
+        "google-api-python-client",
+        "oauth2client",
+        "pydap"
+    ],
+    "humanfriendly": [
+        "coloredlogs"
+    ],
+    "icu": [
+        "boost",
+        "cairo",
+        "harfbuzz",
+        "libxml2",
+        "mss",
+        "texlive-core",
+        "xerces-c"
+    ],
+    "imagesize": [
+        "sphinx"
+    ],
+    "imgurpython": [
+        "catimg"
+    ],
+    "impyla": [
+        "ibis-framework"
+    ],
+    "inflection": [
+        "qds-sdk"
+    ],
+    "ipaddress": [
+        "pies2overrides"
+    ],
+    "ipykernel": [
+        "glueviz",
+        "ipyparallel",
+        "ipywidgets",
+        "jupyter_console",
+        "notebook",
+        "qtconsole",
+        "runipy"
+    ],
+    "ipyparallel": [
+        "hyperspy"
+    ],
+    "ipython": [
+        "caffe",
+        "glueviz",
+        "holoviews",
+        "hyperspy",
+        "ipdb",
+        "ipycache",
+        "ipykernel",
+        "ipyparallel",
+        "ipywidgets",
+        "jupyter_console",
+        "oct2py",
+        "pyomo.extras",
+        "runipy",
+        "scikit-bio",
+        "vega",
+        "yt"
+    ],
+    "ipython_genutils": [
+        "ipyparallel",
+        "jupyter_contrib_nbextensions",
+        "nbformat",
+        "notebook",
+        "traitlets"
+    ],
+    "ipywidgets": [
+        "anypytools",
+        "bqplot",
+        "hyperspy",
+        "ipyleaflet",
+        "pythreejs"
+    ],
+    "iris": [
+        "cis"
+    ],
+    "isl": [
+        "cloog"
+    ],
+    "iso8601": [
+        "keystoneauth1"
+    ],
+    "isodate": [
+        "compliance-checker",
+        "ulmo"
+    ],
+    "isort": [
+        "pylint"
+    ],
+    "iterm2-tools": [
+        "catimg"
+    ],
+    "jansson": [
+        "avro"
+    ],
+    "jasper": [
+        "cdo",
+        "eccodes",
+        "ecmwf_grib",
+        "opencv",
+        "pygrib",
+        "pynio",
+        "python-eccodes",
+        "python-ecmwf_grib"
+    ],
+    "jedi": [
+        "spyder"
+    ],
+    "jinja2": [
+        "branca",
+        "compliance-checker",
+        "conda-build",
+        "conda-smithy",
+        "cookiecutter",
+        "emperor",
+        "feedstockrot",
+        "flask-babel",
+        "flask-babelex",
+        "flo",
+        "folium",
+        "jinja2-time",
+        "jupyterhub",
+        "mkdocs",
+        "mpld3",
+        "mplleaflet",
+        "nbconvert",
+        "notebook",
+        "pelican",
+        "runipy",
+        "salt",
+        "sphinx",
+        "spyre",
+        "statuspage"
+    ],
+    "jinja2-time": [
+        "cookiecutter"
+    ],
+    "jmespath": [
+        "botocore"
+    ],
+    "joblib": [
+        "librosa",
+        "orange3",
+        "pyhum"
+    ],
+    "jpeg": [
+        "bob.io.image",
+        "gdal",
+        "graphviz",
+        "hdf4",
+        "hdfeos2",
+        "jasper",
+        "libgd",
+        "libtiff",
+        "opencv",
+        "pillow",
+        "pyhdf",
+        "pynio",
+        "qt",
+        "u3d",
+        "vigra"
+    ],
+    "jplephem": [
+        "poliastro"
+    ],
+    "json-c": [
+        "gdal"
+    ],
+    "jsonpatch": [
+        "warlock"
+    ],
+    "jsonpointer": [
+        "jsonpatch"
+    ],
+    "jsonschema": [
+        "nbformat",
+        "warlock"
+    ],
+    "jupyter": [
+        "anypytools",
+        "holoviews",
+        "hyperspy",
+        "metakernel",
+        "vega"
+    ],
+    "jupyter_client": [
+        "ipykernel",
+        "ipyparallel",
+        "jupyter_console",
+        "notebook",
+        "qtconsole"
+    ],
+    "jupyter_contrib_core": [
+        "jupyter_contrib_nbextensions",
+        "jupyter_nbextensions_configurator"
+    ],
+    "jupyter_core": [
+        "jupyter_client",
+        "jupyter_contrib_core",
+        "jupyter_contrib_nbextensions",
+        "jupyter_nbextensions_configurator",
+        "nbconvert",
+        "nbformat",
+        "notebook",
+        "qtconsole"
+    ],
+    "jupyter_nbextensions_configurator": [
+        "jupyter_contrib_nbextensions"
+    ],
+    "kealib": [
+        "gdal"
+    ],
+    "keystoneauth1": [
+        "openstacksdk",
+        "os-client-config"
+    ],
+    "kombu": [
+        "celery"
+    ],
+    "krb5": [
+        "libhdfs3",
+        "nco",
+        "netcdf-fortran",
+        "pynio",
+        "wradlib"
+    ],
+    "lancet": [
+        "holoviews"
+    ],
+    "lazy-object-proxy": [
+        "astroid"
+    ],
+    "leveldb": [
+        "caffe",
+        "python-leveldb"
+    ],
+    "libatomic_ops": [
+        "erlang"
+    ],
+    "libblitz": [
+        "bob.blitz"
+    ],
+    "libconda": [
+        "constructor"
+    ],
+    "libdap4": [
+        "gdal"
+    ],
+    "libffi": [
+        "glib"
+    ],
+    "libgcc": [
+        "cdo",
+        "check",
+        "cmt",
+        "coincbc",
+        "csa",
+        "dipy",
+        "esmf",
+        "ffmpeg",
+        "flann",
+        "gridfill",
+        "gridgen",
+        "gridutils",
+        "lapack",
+        "libspatialite",
+        "libuuid",
+        "megaman",
+        "nco",
+        "netcdf-fortran",
+        "nfft",
+        "openblas",
+        "primesieve",
+        "pyferret",
+        "pynfft",
+        "pynio",
+        "pypolyagamma",
+        "pyspharm",
+        "python-primesieve",
+        "python-spams",
+        "pytmatrix",
+        "texinfo",
+        "x264"
+    ],
+    "libgfortran": [
+        "ecmwf_grib",
+        "f90wrap",
+        "mtspec",
+        "scipy"
+    ],
+    "libgsasl": [
+        "libhdfs3"
+    ],
+    "libhdfs3": [
+        "hdfs3"
+    ],
+    "libiconv": [
+        "flex",
+        "fontconfig",
+        "freexl",
+        "glib",
+        "libarchive",
+        "libgd",
+        "libxml2",
+        "pynio"
+    ],
+    "libmatio": [
+        "bob.io.matlab"
+    ],
+    "libmemcached": [
+        "pylibmc"
+    ],
+    "libmo_unpack": [
+        "mo_pack"
+    ],
+    "libnetcdf": [
+        "cdat-lite",
+        "cdo",
+        "eccodes",
+        "ecmwf_grib",
+        "gdal",
+        "nco",
+        "netcdf-cxx4",
+        "netcdf-fortran",
+        "netcdf4",
+        "pynio",
+        "python-eccodes",
+        "python-ecmwf_grib"
+    ],
+    "libntlm": [
+        "libhdfs3"
+    ],
+    "libpng": [
+        "bob.io.image",
+        "cairo",
+        "cairomm",
+        "eccodes",
+        "ecmwf_grib",
+        "fontconfig",
+        "freetype",
+        "gdal",
+        "graphviz",
+        "libgd",
+        "matplotlib",
+        "opencv",
+        "openjpeg",
+        "pango",
+        "pygrib",
+        "pynio",
+        "python-eccodes",
+        "python-ecmwf_grib",
+        "qt",
+        "sox",
+        "texlive-core",
+        "u3d",
+        "vigra"
+    ],
+    "libpq": [
+        "psycopg2"
+    ],
+    "libsigcpp": [
+        "cairomm",
+        "libxmlpp"
+    ],
+    "libsodium": [
+        "pyzmq",
+        "zeromq"
+    ],
+    "libspatialindex": [
+        "rtree"
+    ],
+    "libspatialite": [
+        "gdal"
+    ],
+    "libsvm": [
+        "bob.learn.libsvm"
+    ],
+    "libtiff": [
+        "bob.io.image",
+        "gdal",
+        "graphviz",
+        "libgd",
+        "opencv",
+        "openjpeg",
+        "pillow",
+        "qt",
+        "vigra"
+    ],
+    "libuuid": [
+        "cdo",
+        "libdap4",
+        "libhdfs3"
+    ],
+    "libxml2": [
+        "fontconfig",
+        "libdap4",
+        "libhdfs3",
+        "libspatialite",
+        "libxmlpp",
+        "openturns",
+        "qt",
+        "uwsgi"
+    ],
+    "livereload": [
+        "mkdocs"
+    ],
+    "lmdb": [
+        "caffe"
+    ],
+    "lmfit": [
+        "scikit-beam"
+    ],
+    "locket": [
+        "distributed",
+        "partd"
+    ],
+    "lockfile": [
+        "scikit-bio"
+    ],
+    "lxml": [
+        "compliance-checker",
+        "glymur",
+        "hyperspy",
+        "mss",
+        "obspy",
+        "owslib",
+        "petulant-bear",
+        "premailer",
+        "prov",
+        "pycsw",
+        "pygdp",
+        "pykml",
+        "pyoos",
+        "python-docx",
+        "python-pptx",
+        "thredds_crawler",
+        "ulmo",
+        "wicken"
+    ],
+    "m4": [
+        "autoconf",
+        "automake"
+    ],
+    "mako": [
+        "alembic",
+        "girder"
+    ],
+    "markdown": [
+        "mkdocs",
+        "thinkx"
+    ],
+    "markupsafe": [
+        "jinja2",
+        "mako",
+        "salt"
+    ],
+    "matplotlib": [
+        "arm_pyart",
+        "artview",
+        "basemap",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.db.iris",
+        "bob.ip.base",
+        "bob.ip.gabor",
+        "bob.measure",
+        "caffe",
+        "cartopy",
+        "cis",
+        "cmocean",
+        "ctd",
+        "descartes",
+        "dipy",
+        "flopy",
+        "geopandas",
+        "ggplot",
+        "glue-vispy-viewers",
+        "glueviz",
+        "healpy",
+        "hiveplot",
+        "holoviews",
+        "hyperspy",
+        "iris",
+        "jsanimation",
+        "librosa",
+        "matplotlib-venn",
+        "metpy",
+        "modflow2netcdf",
+        "mpl-probscale",
+        "mpld3",
+        "mplexporter",
+        "nc_time_axis",
+        "nilearn",
+        "obspy",
+        "oceans",
+        "openturns",
+        "poliastro",
+        "pycalphad",
+        "pygridgen",
+        "pygridtools",
+        "pyhum",
+        "pyresample",
+        "pyseidon",
+        "pytest-mpl",
+        "python-ternary",
+        "quantecon",
+        "scikit-bio",
+        "scikit-image",
+        "seaborn",
+        "spyre",
+        "sunpy",
+        "thinkx",
+        "wcsaxes",
+        "windrose",
+        "wradlib",
+        "xray-vision",
+        "yt"
+    ],
+    "mccabe": [
+        "flake8",
+        "pylint"
+    ],
+    "meld3": [
+        "supervisor"
+    ],
+    "metafone": [
+        "usaddress"
+    ],
+    "mistune": [
+        "nbconvert"
+    ],
+    "mkdocs-bootstrap": [
+        "mkdocs"
+    ],
+    "mkdocs-bootswatch": [
+        "mkdocs"
+    ],
+    "mo_pack": [
+        "iris"
+    ],
+    "mock": [
+        "cartopy",
+        "conda-build-all",
+        "ulmo"
+    ],
+    "monotonic": [
+        "fasteners"
+    ],
+    "mpc": [
+        "gmpy2",
+        "symengine"
+    ],
+    "mpfr": [
+        "cgal",
+        "gmpy2",
+        "mpc",
+        "symengine",
+        "texlive-core"
+    ],
+    "mplexporter": [
+        "mpld3",
+        "mplleaflet"
+    ],
+    "mpmath": [
+        "sympy"
+    ],
+    "msgpack-python": [
+        "distributed",
+        "salt",
+        "spyne"
+    ],
+    "munch": [
+        "fiona"
+    ],
+    "muparser": [
+        "openturns"
+    ],
+    "natsort": [
+        "hyperspy",
+        "scikit-bio"
+    ],
+    "nb_conda_kernels": [
+        "nb_anacondacloud",
+        "nb_conda"
+    ],
+    "nbconvert": [
+        "jupyter_contrib_nbextensions",
+        "jupyter_nbextensions_configurator",
+        "notebook",
+        "runipy",
+        "spyder"
+    ],
+    "nbformat": [
+        "nbconvert",
+        "notebook",
+        "runipy"
+    ],
+    "nco": [
+        "pynco"
+    ],
+    "ncurses": [
+        "erlang",
+        "lua",
+        "readline"
+    ],
+    "netcdf-cxx4": [
+        "libradolan"
+    ],
+    "netcdf-fortran": [
+        "cdo",
+        "esmf",
+        "pyferret"
+    ],
+    "netcdf4": [
+        "arm_pyart",
+        "cf_units",
+        "cis",
+        "codar2netcdf",
+        "dxchange",
+        "iris",
+        "modflow2netcdf",
+        "mss",
+        "nc_time_axis",
+        "oceans",
+        "ocgis",
+        "paegan",
+        "petulant-bear",
+        "pyaxiom",
+        "pygeogrids",
+        "pyncml",
+        "pynco",
+        "pyseidon",
+        "pysgrid",
+        "pyugrid",
+        "siphon",
+        "thredds_crawler",
+        "wera2netcdf",
+        "wradlib",
+        "xarray",
+        "yaml2ncml"
+    ],
+    "networkx": [
+        "caffe",
+        "flo",
+        "nipype",
+        "prov",
+        "pyseidon",
+        "scikit-image"
+    ],
+    "nfft": [
+        "pynfft"
+    ],
+    "nibabel": [
+        "dcmstack",
+        "dipy",
+        "nilearn",
+        "nipype"
+    ],
+    "nlopt": [
+        "openturns"
+    ],
+    "nn": [
+        "gridutils"
+    ],
+    "nodejs": [
+        "configurable-http-proxy"
+    ],
+    "nomkl": [
+        "caffe"
+    ],
+    "nose": [
+        "cartopy",
+        "gsw",
+        "mpl-probscale",
+        "nipype",
+        "nose-timer",
+        "nosexcover",
+        "pyutilib",
+        "quantecon",
+        "scikit-bio"
+    ],
+    "notebook": [
+        "anypytools",
+        "fortran-magic",
+        "holoviews",
+        "jupyter_contrib_core",
+        "jupyter_contrib_nbextensions",
+        "jupyter_dashboards",
+        "jupyter_nbextensions_configurator",
+        "jupyterlab",
+        "nb_anacondacloud",
+        "nb_conda",
+        "nb_conda_kernels",
+        "nbpresent",
+        "widgetsnbextension"
+    ],
+    "numba": [
+        "poliastro",
+        "quantecon"
+    ],
+    "numexpr": [
+        "pyresample",
+        "pyseidon",
+        "pytables"
+    ],
+    "numpy": [
+        "altair",
+        "arm_pyart",
+        "autograd",
+        "basemap",
+        "biggus",
+        "bob.ap",
+        "bob.blitz",
+        "bob.learn.boosting",
+        "bob.math",
+        "bottleneck",
+        "bqplot",
+        "caffe",
+        "cartopy",
+        "category_encoders",
+        "cdat-lite",
+        "cell_tree2d",
+        "cf_units",
+        "cfchecker",
+        "cis",
+        "ciso",
+        "clusterpy",
+        "cmt",
+        "ctd",
+        "cyavro",
+        "dask",
+        "deap",
+        "dipy",
+        "dxchange",
+        "edffile",
+        "emcee",
+        "emperor",
+        "eofs",
+        "epic2cf",
+        "esmpy",
+        "f90wrap",
+        "fabio",
+        "ffx",
+        "fiona",
+        "flopy",
+        "folium",
+        "fortran-magic",
+        "gdal",
+        "ggplot",
+        "glue-vispy-viewers",
+        "glueviz",
+        "glymur",
+        "gridfill",
+        "gsw",
+        "h5py",
+        "healpy",
+        "hiveplot",
+        "holoviews",
+        "hyperspy",
+        "ibis-framework",
+        "ioos_qartod",
+        "iris",
+        "jplephem",
+        "keras",
+        "librosa",
+        "lifelines",
+        "lmfit",
+        "mahotas",
+        "matplotlib",
+        "matplotlib-venn",
+        "megaman",
+        "metpy",
+        "mo_pack",
+        "modflow2netcdf",
+        "mpl-probscale",
+        "mtspec",
+        "nc_time_axis",
+        "netcdf4",
+        "nibabel",
+        "nilearn",
+        "nipype",
+        "nitime",
+        "nlopt",
+        "numexpr",
+        "numpy-indexed",
+        "obspy",
+        "oceans",
+        "ocgis",
+        "oct2py",
+        "opencv",
+        "orange3",
+        "orange3",
+        "paegan",
+        "pandas",
+        "patsy",
+        "petulant-bear",
+        "pims",
+        "poliastro",
+        "pvlib-python",
+        "pyamg",
+        "pyaxiom",
+        "pycalphad",
+        "pydap",
+        "pydicom",
+        "pydoe",
+        "pydy",
+        "pyferret",
+        "pyfftw",
+        "pyfive",
+        "pyflann",
+        "pygc",
+        "pygeogrids",
+        "pygrib",
+        "pygridgen",
+        "pygridtools",
+        "pyhdf",
+        "pyhum",
+        "pykalman",
+        "pykdtree",
+        "pymatbridge",
+        "pymeasure",
+        "pyncml",
+        "pynco",
+        "pynfft",
+        "pynio",
+        "pyomo.extras",
+        "pyoos",
+        "pyopcode",
+        "pypolyagamma",
+        "pyproj",
+        "pyresample",
+        "pyseidon",
+        "pysgrid",
+        "pyspharm",
+        "pytables",
+        "python-eccodes",
+        "python-ecmwf_grib",
+        "python-neo",
+        "python-primesieve",
+        "python-spams",
+        "pytmatrix",
+        "pytools",
+        "pyugrid",
+        "pywavelets",
+        "qimage2ndarray",
+        "quantecon",
+        "quantities",
+        "qutip",
+        "rank_filter",
+        "rank_filter",
+        "rasterio",
+        "rasterstats",
+        "reproject",
+        "resampy",
+        "rios",
+        "scikit-beam",
+        "scikit-bio",
+        "scikit-bio",
+        "scikit-image",
+        "scikit-learn",
+        "scikit-sparse",
+        "scikit-umfpack",
+        "scipy",
+        "seaborn",
+        "seawater",
+        "shapely",
+        "siphon",
+        "sklearn-contrib-lightning",
+        "slda",
+        "snuggs",
+        "sound_field_analysis",
+        "spefile",
+        "spyre",
+        "statsmodels",
+        "sunpy",
+        "tensorflow",
+        "theano",
+        "thinkx",
+        "tifffile",
+        "tomopy",
+        "tuiview",
+        "ulmo",
+        "uncertainties",
+        "utide",
+        "vigra",
+        "wcsaxes",
+        "windrose",
+        "windspharm",
+        "wordcloud",
+        "wradlib",
+        "xarray",
+        "xray-vision",
+        "xraylib",
+        "yt",
+        "zarr",
+        "zwatershed",
+        "zwatershed"
+    ],
+    "oauth2client": [
+        "google-api-python-client"
+    ],
+    "oauthlib": [
+        "flask-oauthlib",
+        "requests-oauthlib"
+    ],
+    "oniguruma": [
+        "jq"
+    ],
+    "openblas": [
+        "blas",
+        "bob.math",
+        "caffe",
+        "coincbc",
+        "cvxopt",
+        "hmat-oss",
+        "numpy",
+        "openturns",
+        "python-spams",
+        "scikit-learn",
+        "scipy",
+        "simbody",
+        "suitesparse"
+    ],
+    "opencv": [
+        "caffe"
+    ],
+    "openjpeg": [
+        "gdal"
+    ],
+    "openpyxl": [
+        "pyomo.extras"
+    ],
+    "openssl": [
+        "curl",
+        "erlang",
+        "git",
+        "libarchive",
+        "m2crypto",
+        "postgresql",
+        "psycopg2",
+        "python",
+        "qt",
+        "salt",
+        "thrift-cpp",
+        "uwsgi"
+    ],
+    "openturns": [
+        "otfftw",
+        "otmorris",
+        "otpmml",
+        "otrobopt",
+        "otsvm"
+    ],
+    "os-client-config": [
+        "openstacksdk"
+    ],
+    "owslib": [
+        "cartopy",
+        "compliance-checker",
+        "pycsw",
+        "pygdp",
+        "pyoos"
+    ],
+    "packaging": [
+        "feedstockrot"
+    ],
+    "paegan": [
+        "paegan-transport",
+        "pyoos"
+    ],
+    "pamela": [
+        "jupyterhub"
+    ],
+    "pandas": [
+        "altair",
+        "bqplot",
+        "caffe",
+        "category_encoders",
+        "cis",
+        "codar2netcdf",
+        "ctd",
+        "cyavro",
+        "dask",
+        "emperor",
+        "feather-format",
+        "ffx",
+        "folium",
+        "geopandas",
+        "ggplot",
+        "glueviz",
+        "ibis-framework",
+        "ioos_qartod",
+        "lifelines",
+        "oceans",
+        "pvlib-python",
+        "pyaxiom",
+        "pycalphad",
+        "pygridgen",
+        "pygridtools",
+        "pymeasure",
+        "pyseidon",
+        "quantecon",
+        "scikit-bio",
+        "seaborn",
+        "spylon",
+        "spyre",
+        "statsmodels",
+        "sunpy",
+        "thinkx",
+        "ulmo",
+        "vincent",
+        "wera2netcdf",
+        "xarray",
+        "xray-vision"
+    ],
+    "pandoc": [
+        "pypandoc"
+    ],
+    "pango": [
+        "pyferret"
+    ],
+    "param": [
+        "holoviews"
+    ],
+    "paramiko": [
+        "dask-ec2",
+        "pytest-sftpserver",
+        "scp"
+    ],
+    "partd": [
+        "dask"
+    ],
+    "paste": [
+        "mss",
+        "pastescript",
+        "pydap"
+    ],
+    "pastedeploy": [
+        "pastescript",
+        "pydap"
+    ],
+    "pastescript": [
+        "pydap"
+    ],
+    "patsy": [
+        "category_encoders",
+        "ggplot",
+        "seaborn",
+        "statsmodels"
+    ],
+    "pbr": [
+        "debtcollector",
+        "keystoneauth1",
+        "mock",
+        "openstacksdk",
+        "positional",
+        "pyscaffold",
+        "requestsexceptions",
+        "stevedore"
+    ],
+    "pcre": [
+        "glib",
+        "swig",
+        "uwsgi"
+    ],
+    "pep8": [
+        "autopep8",
+        "spyder"
+    ],
+    "perl": [
+        "autoconf",
+        "automake",
+        "python-eccodes",
+        "texinfo",
+        "texlive-core"
+    ],
+    "petulant-bear": [
+        "wicken"
+    ],
+    "pexpect": [
+        "ipython",
+        "jupyter_console"
+    ],
+    "pickleshare": [
+        "ipython"
+    ],
+    "pies": [
+        "frosted"
+    ],
+    "pika": [
+        "rejected"
+    ],
+    "pillow": [
+        "bob.io.video",
+        "caffe",
+        "cartopy",
+        "cmt",
+        "girder",
+        "mss",
+        "pims",
+        "pyhum",
+        "pyresample",
+        "python-pptx",
+        "scikit-image",
+        "wordcloud"
+    ],
+    "pint": [
+        "metpy"
+    ],
+    "pip": [
+        "auditwheel",
+        "girder",
+        "pbr"
+    ],
+    "pixman": [
+        "cairo",
+        "texlive-core"
+    ],
+    "plotly": [
+        "sound_field_analysis"
+    ],
+    "ply": [
+        "pyomo",
+        "thriftpy",
+        "xonsh"
+    ],
+    "positional": [
+        "keystoneauth1"
+    ],
+    "postgresql": [
+        "gdal"
+    ],
+    "poyo": [
+        "cookiecutter"
+    ],
+    "prettytable": [
+        "cliff"
+    ],
+    "primesieve": [
+        "python-primesieve"
+    ],
+    "probableparsing": [
+        "usaddress"
+    ],
+    "proj.4": [
+        "cartopy",
+        "cdo",
+        "gdal",
+        "libspatialite",
+        "pynio"
+    ],
+    "prompt_toolkit": [
+        "xonsh"
+    ],
+    "protobuf": [
+        "caffe",
+        "libhdfs3",
+        "siphon",
+        "snakebite",
+        "tensorflow"
+    ],
+    "prov": [
+        "nipype"
+    ],
+    "psutil": [
+        "cis",
+        "conda-execute",
+        "distributed",
+        "girder",
+        "glances",
+        "jupyter_contrib_nbextensions",
+        "line_profiler",
+        "memory_profiler",
+        "nipype",
+        "psiturk",
+        "rejected",
+        "spyder"
+    ],
+    "psycopg2": [
+        "geopandas",
+        "vertica-python"
+    ],
+    "ptyprocess": [
+        "terminado"
+    ],
+    "py": [
+        "pytest",
+        "pytest-xdist"
+    ],
+    "pyamg": [
+        "megaman"
+    ],
+    "pyaml": [
+        "circleci-helpers"
+    ],
+    "pyasn1": [
+        "github3.py",
+        "oauth2client",
+        "rsa"
+    ],
+    "pyasn1-modules": [
+        "oauth2client"
+    ],
+    "pycodestyle": [
+        "flake8"
+    ],
+    "pycosat": [
+        "conda",
+        "libconda"
+    ],
+    "pycrypto": [
+        "conda-build",
+        "conda-smithy",
+        "pyinstaller",
+        "salt"
+    ],
+    "pydap": [
+        "pyseidon"
+    ],
+    "pydicom": [
+        "dcmstack",
+        "nibabel"
+    ],
+    "pydoe": [
+        "anypytools"
+    ],
+    "pydotplus": [
+        "prov"
+    ],
+    "pyelftools": [
+        "auditwheel"
+    ],
+    "pyepsg": [
+        "cartopy"
+    ],
+    "pyface": [
+        "apptools",
+        "traitsui"
+    ],
+    "pyferret": [
+        "ferret_datasets"
+    ],
+    "pyfftw": [
+        "tomopy"
+    ],
+    "pyflakes": [
+        "flake8",
+        "spyder"
+    ],
+    "pyflann": [
+        "megaman"
+    ],
+    "pygc": [
+        "modflow2netcdf",
+        "wera2netcdf"
+    ],
+    "pygeoif": [
+        "compliance-checker"
+    ],
+    "pygithub": [
+        "conda-smithy",
+        "feedstockrot",
+        "statuspage"
+    ],
+    "pygments": [
+        "nbconvert",
+        "pelican",
+        "prompt_toolkit",
+        "pudb",
+        "pyface",
+        "qtconsole",
+        "runipy",
+        "sphinx",
+        "spyder",
+        "xo",
+        "xonsh"
+    ],
+    "pygridgen": [
+        "pygridtools"
+    ],
+    "pyhdf": [
+        "cis"
+    ],
+    "pykdtree": [
+        "pygeogrids",
+        "pyresample"
+    ],
+    "pyke": [
+        "iris"
+    ],
+    "pykwalify": [
+        "circleci-helpers"
+    ],
+    "pylint": [
+        "pylint-plugin-utils"
+    ],
+    "pymongo": [
+        "girder"
+    ],
+    "pymysql": [
+        "pyomo.extras"
+    ],
+    "pyncml": [
+        "pyaxiom"
+    ],
+    "pynco": [
+        "pyaxiom"
+    ],
+    "pyodbc": [
+        "pyomo.extras"
+    ],
+    "pyopengl": [
+        "glue-vispy-viewers"
+    ],
+    "pyopenssl": [
+        "azure-servicemanagement-legacy",
+        "eventlet",
+        "github3.py"
+    ],
+    "pyparsing": [
+        "cliff",
+        "cmd2",
+        "luigi",
+        "matplotlib",
+        "packaging",
+        "pycalphad",
+        "pydotplus",
+        "pyhocon",
+        "snuggs",
+        "spyne"
+    ],
+    "pypolyagamma": [
+        "slda"
+    ],
+    "pyproj": [
+        "basemap",
+        "geopandas",
+        "ioos_qartod",
+        "modflow2netcdf",
+        "owslib",
+        "pycsw",
+        "pygeogrids",
+        "pygrib",
+        "pygridgen",
+        "pyhum",
+        "pyresample"
+    ],
+    "pyqt": [
+        "artview",
+        "glueviz",
+        "orange3",
+        "pyface",
+        "pyferret",
+        "qimage2ndarray",
+        "qt_binder",
+        "qtconsole",
+        "spyder",
+        "tuiview",
+        "xray-vision"
+    ],
+    "pyqtgraph": [
+        "orange3",
+        "pymeasure"
+    ],
+    "pyramid": [
+        "spyne"
+    ],
+    "pyresample": [
+        "pyhum"
+    ],
+    "pyro4": [
+        "pyomo.extras"
+    ],
+    "pysal": [
+        "geopandas"
+    ],
+    "pyserial": [
+        "pymeasure"
+    ],
+    "pysgrid": [
+        "gridgeo"
+    ],
+    "pyshp": [
+        "basemap",
+        "cartopy"
+    ],
+    "pyspharm": [
+        "windspharm"
+    ],
+    "pystache": [
+        "static"
+    ],
+    "pytables": [
+        "paegan-transport",
+        "quantecon",
+        "ulmo"
+    ],
+    "pytest": [
+        "ibis-framework",
+        "pytest-benchmark",
+        "pytest-cov",
+        "pytest-django",
+        "pytest-faulthandler",
+        "pytest-mock",
+        "pytest-mpl",
+        "pytest-qt",
+        "pytest-runner",
+        "pytest-xdist",
+        "sunpy",
+        "ulmo"
+    ],
+    "python": [
+        "addict",
+        "affine",
+        "alabaster",
+        "alembic",
+        "altair",
+        "amqp",
+        "anaconda-client",
+        "anaconda-verify",
+        "aniso8601",
+        "antispoofing.utils",
+        "antlr",
+        "anyjson",
+        "anypytools",
+        "apache-libcloud",
+        "appdirs",
+        "apptools",
+        "apscheduler",
+        "argh",
+        "argparse",
+        "args",
+        "arm_pyart",
+        "arrow",
+        "artview",
+        "asciitree",
+        "assetid",
+        "astroid",
+        "asyncssh",
+        "atom",
+        "attrdict",
+        "audioread",
+        "auditwheel",
+        "autograd",
+        "autopep8",
+        "awesome-slugify",
+        "awscli",
+        "azure-common",
+        "azure",
+        "azure-mgmt-common",
+        "azure-mgmt-compute",
+        "azure-mgmt",
+        "azure-mgmt-network",
+        "azure-mgmt-nspkg",
+        "azure-mgmt-resource",
+        "azure-mgmt-storage",
+        "azure-nspkg",
+        "azure-servicebus",
+        "azure-servicemanagement-legacy",
+        "azure-storage",
+        "babel",
+        "backports.functools_lru_cache",
+        "backports.shutil_get_terminal_size",
+        "backports_abc",
+        "basemap",
+        "betamax",
+        "betamax-matchers",
+        "biggus",
+        "billiard",
+        "binaryornot",
+        "blinker",
+        "bob",
+        "bob.ap",
+        "bob.bio.base",
+        "bob.bio.face",
+        "bob.bio.gmm",
+        "bob.bio.spear",
+        "bob.bio.video",
+        "bob.blitz",
+        "bob.core",
+        "bob.db.arface",
+        "bob.db.atnt",
+        "bob.db.atvskeystroke",
+        "bob.db.avspoof",
+        "bob.db.banca",
+        "bob.db.base",
+        "bob.db.biosecure",
+        "bob.db.biosecurid.face",
+        "bob.db.casia_fasd",
+        "bob.db.casme2",
+        "bob.db.caspeal",
+        "bob.db.frgc",
+        "bob.db.gbu",
+        "bob.db.iris",
+        "bob.db.kboc16",
+        "bob.db.lfw",
+        "bob.db.livdet2013",
+        "bob.db.mnist",
+        "bob.db.mobio",
+        "bob.db.msu_mfsd_mod",
+        "bob.db.multipie",
+        "bob.db.nist_sre12",
+        "bob.db.replay",
+        "bob.db.scface",
+        "bob.db.utfvp",
+        "bob.db.verification.filelist",
+        "bob.db.verification.utils",
+        "bob.db.voxforge",
+        "bob.db.wine",
+        "bob.db.xm2vts",
+        "bob.db.youtube",
+        "bob.extension",
+        "bob.io.audio",
+        "bob.io.base",
+        "bob.io.image",
+        "bob.io.matlab",
+        "bob.io.video",
+        "bob.ip.base",
+        "bob.ip.color",
+        "bob.ip.draw",
+        "bob.ip.facedetect",
+        "bob.ip.gabor",
+        "bob.ip.optflow.hornschunck",
+        "bob.ip.optflow.liu",
+        "bob.learn.activation",
+        "bob.learn.boosting",
+        "bob.learn.em",
+        "bob.learn.libsvm",
+        "bob.learn.linear",
+        "bob.learn.mlp",
+        "bob.math",
+        "bob.measure",
+        "bob.sp",
+        "boltons",
+        "boost",
+        "botocore",
+        "bottleneck",
+        "bqplot",
+        "branca",
+        "brewer2mpl",
+        "caffe",
+        "capturer",
+        "cartopy",
+        "category_encoders",
+        "catimg",
+        "cc-plugin-glider",
+        "cc-plugin-ncei",
+        "cdat-lite",
+        "celery",
+        "cell_tree2d",
+        "cerberus",
+        "certifi",
+        "cf_units",
+        "cfchecker",
+        "cgal",
+        "channelarchiver",
+        "chartkick",
+        "cherrypy",
+        "circleci-helpers",
+        "circleclient",
+        "cis",
+        "ciso",
+        "ckanapi",
+        "click",
+        "click-plugins",
+        "cliff",
+        "clint",
+        "cloud_sptheme",
+        "cloudpickle",
+        "clusterpy",
+        "clyent",
+        "cmd2",
+        "cmocean",
+        "cmt",
+        "codar2netcdf",
+        "colorama",
+        "coloredlogs",
+        "colorlog",
+        "compliance-checker",
+        "conda-build-all",
+        "conda-build",
+        "conda-env",
+        "conda-execute",
+        "conda",
+        "conda-smithy",
+        "conda-testenv",
+        "conda-workon",
+        "configparser",
+        "constructor",
+        "contextlib2",
+        "coverage",
+        "croniter",
+        "cssselect",
+        "cssutils",
+        "ctd",
+        "cvxopt",
+        "cyavro",
+        "cycler",
+        "cyordereddict",
+        "cython",
+        "cythongsl",
+        "cytoolz",
+        "dask",
+        "dateutils",
+        "dcmstack",
+        "deap",
+        "debtcollector",
+        "dask-ec2",
+        "depfinder",
+        "descartes",
+        "dill",
+        "dipy",
+        "diskcache",
+        "distributed",
+        "dj-static",
+        "django-autoslug",
+        "django-celery",
+        "django-debug-toolbar",
+        "django-enumfields",
+        "django-extensions",
+        "django",
+        "django-grappelli",
+        "django-nested-inline",
+        "django-redis-cache",
+        "django-rest-hooks",
+        "django-taggit",
+        "django-typed-models",
+        "django_polymorphic",
+        "djangorestframework",
+        "docker-py",
+        "docopt",
+        "docstring-coverage",
+        "doct",
+        "doctr",
+        "docutils",
+        "dodgy",
+        "dxchange",
+        "dxfile",
+        "ecmwf-api-client",
+        "edffile",
+        "effect",
+        "elasticsearch-dsl",
+        "elasticsearch",
+        "emcee",
+        "emperor",
+        "entrypoints",
+        "enum34",
+        "envisage",
+        "eofs",
+        "epic2cf",
+        "esmpy",
+        "event-model",
+        "eventlet",
+        "exec-wrappers",
+        "extras",
+        "f90wrap",
+        "fabio",
+        "fake-factory",
+        "fastavro",
+        "fasteners",
+        "feather-format",
+        "feedgenerator",
+        "feedstockrot",
+        "ferret_datasets",
+        "ffx",
+        "filechunkio",
+        "filelock",
+        "findspark",
+        "fiona",
+        "flake8",
+        "flask-babel",
+        "flask-babelex",
+        "flask-bcrypt",
+        "flask-cache",
+        "flask-httpauth",
+        "flask-login",
+        "flask-oauthlib",
+        "flask-sqlalchemy",
+        "flask-wtf",
+        "flexx",
+        "flo",
+        "flopy",
+        "flower",
+        "folium",
+        "fortran-magic",
+        "freezegun",
+        "frosted",
+        "funcsigs",
+        "functools32",
+        "future",
+        "fuzzywuzzy",
+        "gdal",
+        "gdcm",
+        "genshi",
+        "geoalchemy2",
+        "geojson",
+        "geojsonio",
+        "geolinks",
+        "geopandas",
+        "geopy",
+        "ggplot",
+        "ghp-import",
+        "girder-client",
+        "girder",
+        "gitdb",
+        "github3.py",
+        "gitpython",
+        "glances",
+        "glue-vispy-viewers",
+        "glueviz",
+        "glymur",
+        "gmpy2",
+        "gnureadline",
+        "google-api-python-client",
+        "google-apputils",
+        "gpxpy",
+        "gridfill",
+        "gridgeo",
+        "gsw",
+        "gunicorn",
+        "h5netcdf",
+        "h5py",
+        "hachoir-core",
+        "hachoir-metadata",
+        "hachoir-parser",
+        "happybase",
+        "haversine",
+        "hdbscan",
+        "hdfs3",
+        "healpy",
+        "helper",
+        "hiredis",
+        "historydict",
+        "hive-thrift-py",
+        "hiveplot",
+        "holoviews",
+        "htmlmin",
+        "httplib2",
+        "httpretty",
+        "humanfriendly",
+        "humanize",
+        "hyperspy",
+        "hypothesis",
+        "ibis-framework",
+        "imagesize",
+        "imgurpython",
+        "importlib",
+        "impyla",
+        "inflection",
+        "invoke",
+        "ioos_qartod",
+        "ipaddress",
+        "ipdb",
+        "ipycache",
+        "ipykernel",
+        "ipyleaflet",
+        "ipyparallel",
+        "ipython",
+        "ipython_genutils",
+        "ipywidgets",
+        "iris",
+        "iso8601",
+        "isodate",
+        "isort",
+        "iterm2-tools",
+        "jinja2",
+        "jinja2-time",
+        "jmespath",
+        "joblib",
+        "jplephem",
+        "jsanimation",
+        "jsmin",
+        "json-rpc",
+        "jsonpatch",
+        "jsonpointer",
+        "jsonschema",
+        "jupyter_client",
+        "jupyter_console",
+        "jupyter_contrib_core",
+        "jupyter_contrib_nbextensions",
+        "jupyter_core",
+        "jupyter_dashboards",
+        "jupyter_nbextensions_configurator",
+        "jupyterhub",
+        "jupyterlab",
+        "keras",
+        "keyring",
+        "keystoneauth1",
+        "kiwisolver",
+        "kombu",
+        "lazy-object-proxy",
+        "lazyasd",
+        "legit",
+        "libconda",
+        "librosa",
+        "lifelines",
+        "line_profiler",
+        "linecache2",
+        "livereload",
+        "lmfit",
+        "locket",
+        "logilab-common",
+        "luigi",
+        "m2crypto",
+        "mahotas",
+        "mako",
+        "markupsafe",
+        "matplotlib",
+        "matplotlib-venn",
+        "mccabe",
+        "mechanize",
+        "megaman",
+        "memory_profiler",
+        "mercurial",
+        "metafone",
+        "metakernel",
+        "metpy",
+        "mingwpy",
+        "mistune",
+        "mkdocs-bootstrap",
+        "mkdocs-bootswatch",
+        "mkdocs",
+        "mo_pack",
+        "mock",
+        "modflow2netcdf",
+        "mongoquery",
+        "monotonic",
+        "mox",
+        "mpl-probscale",
+        "mpld3",
+        "mplexporter",
+        "mplleaflet",
+        "mpmath",
+        "mss",
+        "mtspec",
+        "munch",
+        "mutagen",
+        "namedlist",
+        "nb_anacondacloud",
+        "nb_conda",
+        "nb_conda_kernels",
+        "nbconvert",
+        "nbformat",
+        "nbpresent",
+        "nc_time_axis",
+        "netaddr",
+        "netcdf4",
+        "netifaces",
+        "newrelic",
+        "nibabel",
+        "nilearn",
+        "nipype",
+        "nitime",
+        "nlopt",
+        "nose",
+        "nose-timer",
+        "nose_parameterized",
+        "nosexcover",
+        "notebook",
+        "nuitka",
+        "numexpr",
+        "numpy",
+        "numpy-indexed",
+        "oauth2client",
+        "oauthlib",
+        "obspy",
+        "obvious-ci",
+        "oceans",
+        "ocgis",
+        "oct2py",
+        "olefile",
+        "opencv",
+        "openstacksdk",
+        "openturns",
+        "orange3",
+        "ordered-set",
+        "ordereddict",
+        "os-client-config",
+        "otfftw",
+        "otmorris",
+        "otpmml",
+        "otrobopt",
+        "otsvm",
+        "owslib",
+        "packaging",
+        "paegan",
+        "paegan-transport",
+        "palettable",
+        "pamela",
+        "pandas",
+        "partd",
+        "paste",
+        "pastescript",
+        "path.py",
+        "pathtools",
+        "patsy",
+        "pbr",
+        "pdfminer",
+        "peewee",
+        "pelican",
+        "pep257",
+        "pep8",
+        "pep8-naming",
+        "petulant-bear",
+        "pexpect",
+        "phonenumbers",
+        "phreeqpy",
+        "pickleshare",
+        "pies",
+        "pies2overrides",
+        "pika",
+        "pillow",
+        "pims",
+        "pint",
+        "pip",
+        "pkginfo",
+        "plotly",
+        "poliastro",
+        "port-for",
+        "positional",
+        "postgresql",
+        "poyo",
+        "prefsync",
+        "premailer",
+        "prettytable",
+        "probableparsing",
+        "prompt_toolkit",
+        "protobuf",
+        "prov",
+        "psiturk",
+        "psutil",
+        "psycopg2",
+        "ptyprocess",
+        "pudb",
+        "pvlib-python",
+        "py4j",
+        "pyamg",
+        "pyaml",
+        "pyasn1",
+        "pyaxiom",
+        "pybind11",
+        "pycalphad",
+        "pycapnp",
+        "pycodestyle",
+        "pycosat",
+        "pycrypto",
+        "pycsw",
+        "pydap",
+        "pydicom",
+        "pydocstyle",
+        "pydoe",
+        "pydotplus",
+        "pydruid",
+        "pydy",
+        "pyelftools",
+        "pyepsg",
+        "pyface",
+        "pyferret",
+        "pyfftw",
+        "pyfive",
+        "pyflakes",
+        "pyflann",
+        "pygc",
+        "pygdp",
+        "pygeogrids",
+        "pygeoif",
+        "pygithub",
+        "pyglet",
+        "pygments",
+        "pygrib",
+        "pygridgen",
+        "pygridtools",
+        "pyhamcrest",
+        "pyhdf",
+        "pyhocon",
+        "pyhum",
+        "pyinotify",
+        "pyinstaller",
+        "pyjwt",
+        "pykalman",
+        "pykdtree",
+        "pyke",
+        "pykml",
+        "pykwalify",
+        "pylibmc",
+        "pylint",
+        "pylint-plugin-utils",
+        "pymatbridge",
+        "pymeasure",
+        "pymongo",
+        "pyncml",
+        "pynco",
+        "pynfft",
+        "pynio",
+        "pyomo",
+        "pyomo.extras",
+        "pyoos",
+        "pyopcode",
+        "pyopengl",
+        "pypandoc",
+        "pyparsing",
+        "pypdf2",
+        "pypolyagamma",
+        "pyproj",
+        "pyresample",
+        "pyro4",
+        "pyroma",
+        "pysal",
+        "pyscaffold",
+        "pyseidon",
+        "pysgrid",
+        "pyshp",
+        "pysmbclient",
+        "pysocks",
+        "pyspharm",
+        "pystache",
+        "pytables",
+        "pytest-benchmark",
+        "pytest-cov",
+        "pytest-django",
+        "pytest-faulthandler",
+        "pytest",
+        "pytest-mock",
+        "pytest-mpl",
+        "pytest-qt",
+        "pytest-runner",
+        "pytest-sftpserver",
+        "pytest-xdist",
+        "python-avro",
+        "python-cdo",
+        "python-coveralls",
+        "python-crfsuite",
+        "python-dateutil",
+        "decorator",
+        "python-docx",
+        "python-drmaa",
+        "python-eccodes",
+        "python-ecmwf_grib",
+        "python-editor",
+        "python-gflags",
+        "python-gnupg",
+        "python-hdfs",
+        "python-leveldb",
+        "python-levenshtein",
+        "python-marisa-trie",
+        "python-mimeparse",
+        "python-neo",
+        "pathlib2",
+        "python-pptx",
+        "python-primesieve",
+        "simplegeneric",
+        "python-snappy",
+        "python-spams",
+        "python-symengine",
+        "python-ternary",
+        "pythreejs",
+        "pytmatrix",
+        "pytools",
+        "pytrie",
+        "pytz",
+        "pyugrid",
+        "pyutilib",
+        "pyvisa",
+        "pywavelets",
+        "pywebhdfs",
+        "pyyaml",
+        "pyzmq",
+        "qds-sdk",
+        "qimage2ndarray",
+        "qrcode",
+        "qt_binder",
+        "qtconsole",
+        "qtpy",
+        "quantecon",
+        "quantities",
+        "qutip",
+        "rank_filter",
+        "rasterio",
+        "rasterstats",
+        "redis-py",
+        "regex",
+        "rejected",
+        "reproject",
+        "requests",
+        "requests-futures",
+        "requests-oauthlib",
+        "requests-toolbelt",
+        "requestsexceptions",
+        "requirements-detector",
+        "resampy",
+        "rfc3986",
+        "rios",
+        "rq",
+        "rsa",
+        "rtree",
+        "ruamel.ordereddict",
+        "ruamel.yaml",
+        "ruamel_yaml",
+        "runipy",
+        "s3fs",
+        "s3transfer",
+        "salt",
+        "scandir",
+        "scikit-beam",
+        "scikit-bio",
+        "scikit-image",
+        "scikit-learn",
+        "scikit-sparse",
+        "scikit-umfpack",
+        "scipy",
+        "scp",
+        "seaborn",
+        "seawater",
+        "selenium",
+        "serpent",
+        "setoptconf",
+        "setproctitle",
+        "setuptools",
+        "setuptools-git",
+        "setuptools_scm",
+        "shapely",
+        "simplekml",
+        "singledispatch",
+        "sip",
+        "siphon",
+        "six",
+        "sklearn-contrib-lightning",
+        "slackclient",
+        "slacker",
+        "slda",
+        "slicerator",
+        "smmap",
+        "snakebite",
+        "snakefood",
+        "snowballstemmer",
+        "snuggs",
+        "sortedcontainers",
+        "sound_field_analysis",
+        "speaklater",
+        "speechrecognition",
+        "spefile",
+        "sphinx-argparse",
+        "sphinx-bootstrap-theme",
+        "sphinx",
+        "sphinx_rtd_theme",
+        "sphinxcontrib-autoprogram",
+        "sphinxjp.themecore",
+        "splauncher",
+        "spyder",
+        "spylon",
+        "spyne",
+        "spyre",
+        "srtm.py",
+        "ssl_match_hostname",
+        "static",
+        "statsd",
+        "statsmodels",
+        "statuspage",
+        "stdlib-list",
+        "stevedore",
+        "structlog",
+        "subprocess32",
+        "suds-jurko",
+        "sunpy",
+        "super_state_machine",
+        "supervisor",
+        "sympy",
+        "tabulate",
+        "tangelo",
+        "tempita",
+        "tensorflow",
+        "termcolor",
+        "terminado",
+        "testfixtures",
+        "theano",
+        "thinkx",
+        "thredds_crawler",
+        "thrift",
+        "thriftpy",
+        "tifffile",
+        "tika",
+        "tinydb",
+        "tlslite",
+        "tomopy",
+        "toolz",
+        "tornado",
+        "tqdm",
+        "traitlets",
+        "traits",
+        "traitsui",
+        "tuiview",
+        "typing",
+        "tzlocal",
+        "ua-parser",
+        "ulmo",
+        "uncertainties",
+        "unidecode",
+        "uritemplate",
+        "uritemplate.py",
+        "urllib3",
+        "urwid",
+        "usaddress",
+        "user-agents",
+        "utide",
+        "uwsgi",
+        "valideer",
+        "vcrpy",
+        "vcversioner",
+        "vega",
+        "verboselogs",
+        "versioneer",
+        "vertica-python",
+        "vigra",
+        "vincent",
+        "voluptuous",
+        "vtk",
+        "vulture",
+        "waf",
+        "warlock",
+        "wcsaxes",
+        "wcwidth",
+        "webcolors",
+        "websocket-client",
+        "wera2netcdf",
+        "wheel",
+        "whichcraft",
+        "wicken",
+        "widgetsnbextension",
+        "win_unicode_console",
+        "wincertstore",
+        "windrose",
+        "windspharm",
+        "wordcloud",
+        "wradlib",
+        "wrapt",
+        "ws4py",
+        "wtforms-appengine",
+        "xarray",
+        "xmltodict",
+        "xo",
+        "xonsh",
+        "xray-vision",
+        "xraylib",
+        "xvfbwrapper",
+        "y_serial",
+        "yaml2ncml",
+        "yapf",
+        "yt",
+        "zarr",
+        "zwatershed"
+    ],
+    "python-avro": [
+        "cyavro"
+    ],
+    "python-crfsuite": [
+        "usaddress"
+    ],
+    "python-daemon": [
+        "luigi"
+    ],
+    "python-dateutil": [
+        "anaconda-client",
+        "aniso8601",
+        "arrow",
+        "azure-storage",
+        "botocore",
+        "caffe",
+        "codar2netcdf",
+        "compliance-checker",
+        "croniter",
+        "dateutils",
+        "elasticsearch-dsl",
+        "fake-factory",
+        "freezegun",
+        "google-apputils",
+        "hyperspy",
+        "matplotlib",
+        "modflow2netcdf",
+        "mss",
+        "nipype",
+        "owslib",
+        "paegan",
+        "pandas",
+        "pelican",
+        "prov",
+        "pyaxiom",
+        "pygdp",
+        "pykwalify",
+        "pynco",
+        "vertica-python",
+        "wera2netcdf"
+    ],
+    "python-editor": [
+        "alembic"
+    ],
+    "python-gflags": [
+        "caffe",
+        "google-apputils"
+    ],
+    "python-hdfs": [
+        "ibis-framework"
+    ],
+    "python-leveldb": [
+        "caffe"
+    ],
+    "python-levenshtein": [
+        "fuzzywuzzy"
+    ],
+    "python-simplegeneric": [
+        "ipython"
+    ],
+    "python.app": [
+        "glueviz",
+        "orange3",
+        "spyder"
+    ],
+    "pytz": [
+        "anaconda-client",
+        "apscheduler",
+        "babel",
+        "celery",
+        "codar2netcdf",
+        "dateutils",
+        "feedgenerator",
+        "flower",
+        "girder",
+        "google-apputils",
+        "matplotlib",
+        "modflow2netcdf",
+        "mss",
+        "owslib",
+        "paegan",
+        "pandas",
+        "pelican",
+        "plotly",
+        "pvlib-python",
+        "pyaxiom",
+        "pyncml",
+        "spyne",
+        "thredds_crawler",
+        "tzlocal",
+        "vertica-python",
+        "wera2netcdf"
+    ],
+    "pyugrid": [
+        "gridgeo"
+    ],
+    "pyutilib": [
+        "pyomo"
+    ],
+    "pyvisa": [
+        "pymeasure"
+    ],
+    "pywavelets": [
+        "tomopy"
+    ],
+    "pyyaml": [
+        "anaconda-client",
+        "anaconda-verify",
+        "caffe",
+        "cliff",
+        "conda-execute",
+        "conda",
+        "dask-ec2",
+        "depfinder",
+        "feedstockrot",
+        "flo",
+        "girder",
+        "helper",
+        "jupyter_contrib_nbextensions",
+        "jupyter_nbextensions_configurator",
+        "keras",
+        "libconda",
+        "mkdocs",
+        "os-client-config",
+        "pyaml",
+        "pykwalify",
+        "pyomo.extras",
+        "python-coveralls",
+        "rejected",
+        "salt",
+        "setoptconf",
+        "spylon",
+        "spyne",
+        "tangelo",
+        "vcrpy",
+        "yaml2ncml"
+    ],
+    "pyzmq": [
+        "bqplot",
+        "ipyparallel",
+        "jupyter_client",
+        "pymatbridge",
+        "runipy",
+        "salt",
+        "spyne"
+    ],
+    "qt": [
+        "hyperspy",
+        "qwt",
+        "qwtpolar"
+    ],
+    "qtconsole": [
+        "glueviz",
+        "spyder"
+    ],
+    "quantities": [
+        "ioos_qartod",
+        "python-neo"
+    ],
+    "qwt": [
+        "qwtpolar"
+    ],
+    "rasterio": [
+        "rasterstats"
+    ],
+    "readline": [
+        "erlang",
+        "lua",
+        "python"
+    ],
+    "redis-py": [
+        "django-redis-cache",
+        "paegan-transport",
+        "rq"
+    ],
+    "regex": [
+        "awesome-slugify"
+    ],
+    "requests": [
+        "anaconda-client",
+        "azure-mgmt-common",
+        "azure-servicebus",
+        "azure-servicemanagement-legacy",
+        "azure-storage",
+        "betamax",
+        "catimg",
+        "circleclient",
+        "ckanapi",
+        "compliance-checker",
+        "conda",
+        "conda-smithy",
+        "django-rest-hooks",
+        "docker-py",
+        "doctr",
+        "feedstockrot",
+        "girder-client",
+        "girder",
+        "github3.py",
+        "hyperspy",
+        "imgurpython",
+        "jupyterhub",
+        "keystoneauth1",
+        "libconda",
+        "mss",
+        "obspy",
+        "owslib",
+        "paegan-transport",
+        "plotly",
+        "premailer",
+        "psiturk",
+        "pyepsg",
+        "pyoos",
+        "python-coveralls",
+        "python-hdfs",
+        "pywebhdfs",
+        "qds-sdk",
+        "quantecon",
+        "requests-futures",
+        "requests-oauthlib",
+        "requests-toolbelt",
+        "salt",
+        "siphon",
+        "slackclient",
+        "slacker",
+        "sphinx",
+        "srtm.py",
+        "sunpy",
+        "thredds_crawler",
+        "tika",
+        "ulmo",
+        "usaddress"
+    ],
+    "requests-oauthlib": [
+        "flask-oauthlib"
+    ],
+    "requests-toolbelt": [
+        "betamax-matchers"
+    ],
+    "requestsexceptions": [
+        "os-client-config"
+    ],
+    "resampy": [
+        "librosa"
+    ],
+    "rope": [
+        "spyder"
+    ],
+    "rsa": [
+        "awscli",
+        "oauth2client"
+    ],
+    "rtree": [
+        "geopandas",
+        "ocgis"
+    ],
+    "ruamel.yaml": [
+        "conda-smithy"
+    ],
+    "ruamel_yaml": [
+        "conda"
+    ],
+    "s3fs": [
+        "distributed"
+    ],
+    "s3transfer": [
+        "awscli"
+    ],
+    "scikit-bio": [
+        "emperor"
+    ],
+    "scikit-image": [
+        "caffe",
+        "glue-vispy-viewers",
+        "glueviz",
+        "hyperspy",
+        "pims",
+        "pyhum",
+        "scikit-beam",
+        "sunpy",
+        "tomopy"
+    ],
+    "scikit-learn": [
+        "category_encoders",
+        "dipy",
+        "ffx",
+        "hdbscan",
+        "hyperspy",
+        "librosa",
+        "megaman",
+        "nilearn",
+        "orange3",
+        "pyhum",
+        "slda"
+    ],
+    "scipy": [
+        "anypytools",
+        "arm_pyart",
+        "autograd",
+        "bob.ap",
+        "bob.bio.base",
+        "bob.io.audio",
+        "bob.ip.optflow.hornschunck",
+        "bob.learn.boosting",
+        "caffe",
+        "cartopy",
+        "category_encoders",
+        "cis",
+        "cmt",
+        "ctd",
+        "dipy",
+        "emperor",
+        "ffx",
+        "ggplot",
+        "glueviz",
+        "gsw",
+        "hyperspy",
+        "iris",
+        "keras",
+        "librosa",
+        "lifelines",
+        "lmfit",
+        "matplotlib-venn",
+        "megaman",
+        "metpy",
+        "modflow2netcdf",
+        "mss",
+        "nibabel",
+        "nilearn",
+        "nipype",
+        "nitime",
+        "obspy",
+        "oceans",
+        "oct2py",
+        "orange3",
+        "paegan",
+        "patsy",
+        "poliastro",
+        "pyamg",
+        "pycalphad",
+        "pydoe",
+        "pydy",
+        "pygeogrids",
+        "pyhum",
+        "pykalman",
+        "pynco",
+        "pypolyagamma",
+        "pyresample",
+        "pysal",
+        "pyseidon",
+        "python-spams",
+        "pytmatrix",
+        "quantecon",
+        "qutip",
+        "reproject",
+        "resampy",
+        "scikit-beam",
+        "scikit-bio",
+        "scikit-image",
+        "scikit-learn",
+        "scikit-sparse",
+        "scikit-umfpack",
+        "seaborn",
+        "slda",
+        "sound_field_analysis",
+        "statsmodels",
+        "sunpy",
+        "theano",
+        "thinkx",
+        "tomopy",
+        "utide",
+        "wradlib",
+        "xarray",
+        "xray-vision",
+        "xraylib"
+    ],
+    "seaborn": [
+        "pyseidon"
+    ],
+    "seawater": [
+        "oceans"
+    ],
+    "serpent": [
+        "pyro4"
+    ],
+    "setproctitle": [
+        "psiturk",
+        "xonsh"
+    ],
+    "setuptools": [
+        "anypytools",
+        "astroid",
+        "auditwheel",
+        "azure",
+        "azure-nspkg",
+        "backports.functools_lru_cache",
+        "bob.extension",
+        "brewer2mpl",
+        "cfchecker",
+        "clyent",
+        "conda-build-all",
+        "conda-execute",
+        "conda-smithy",
+        "conda-testenv",
+        "feedstockrot",
+        "fiona",
+        "flake8",
+        "flower",
+        "geoalchemy2",
+        "girder",
+        "google-apputils",
+        "gunicorn",
+        "impyla",
+        "jupyter_contrib_core",
+        "jupyter_contrib_nbextensions",
+        "jupyter_nbextensions_configurator",
+        "keras",
+        "librosa",
+        "lifelines",
+        "logilab-common",
+        "netcdf4",
+        "newrelic",
+        "obspy",
+        "obvious-ci",
+        "orange3",
+        "paste",
+        "pint",
+        "pip",
+        "plotly",
+        "pudb",
+        "pydy",
+        "pyinstaller",
+        "pyomo",
+        "pyroma",
+        "pytest-benchmark",
+        "pytest-cov",
+        "pytest-mpl",
+        "pytest-runner",
+        "pytest-xdist",
+        "pyutilib",
+        "pyvisa",
+        "requirements-detector",
+        "resampy",
+        "rq",
+        "ruamel.yaml",
+        "ruamel_yaml",
+        "scikit-umfpack",
+        "setuptools-git",
+        "static",
+        "tika",
+        "wheel"
+    ],
+    "sh": [
+        "psiturk",
+        "python-coveralls"
+    ],
+    "shapely": [
+        "cartopy",
+        "geopandas",
+        "gridgeo",
+        "oceans",
+        "ocgis",
+        "paegan",
+        "pycsw",
+        "rasterstats"
+    ],
+    "simplejson": [
+        "ckanapi",
+        "nipype",
+        "spyne",
+        "uritemplate"
+    ],
+    "simplekml": [
+        "pyhum"
+    ],
+    "sip": [
+        "qimage2ndarray"
+    ],
+    "six": [
+        "antispoofing.utils",
+        "apscheduler",
+        "astroid",
+        "attrdict",
+        "bob.db.arface",
+        "bob.db.atvskeystroke",
+        "bob.db.avspoof",
+        "bob.db.banca",
+        "bob.db.biosecurid.face",
+        "bob.db.casia_fasd",
+        "bob.db.casme2",
+        "bob.db.frgc",
+        "bob.db.gbu",
+        "bob.db.kboc16",
+        "bob.db.lfw",
+        "bob.db.livdet2013",
+        "bob.db.mobio",
+        "bob.db.msu_mfsd_mod",
+        "bob.db.nist_sre12",
+        "bob.db.replay",
+        "bob.db.utfvp",
+        "bob.db.verification.utils",
+        "bob.db.xm2vts",
+        "bob.db.youtube",
+        "caffe",
+        "cartopy",
+        "cf_units",
+        "cherrypy",
+        "cliff",
+        "cyavro",
+        "cycler",
+        "debtcollector",
+        "dask-ec2",
+        "distributed",
+        "django-enumfields",
+        "django-extensions",
+        "docker-py",
+        "doct",
+        "dxchange",
+        "effect",
+        "elasticsearch-dsl",
+        "fake-factory",
+        "fasteners",
+        "feedgenerator",
+        "fiona",
+        "freezegun",
+        "geojsonio",
+        "geopandas",
+        "ggplot",
+        "girder-client",
+        "girder",
+        "google-api-python-client",
+        "h5py",
+        "healpy",
+        "ibis-framework",
+        "impyla",
+        "keras",
+        "keystoneauth1",
+        "legit",
+        "librosa",
+        "livereload",
+        "logilab-common",
+        "mock",
+        "mss",
+        "nc_time_axis",
+        "oauth2client",
+        "openstacksdk",
+        "packaging",
+        "paste",
+        "pastescript",
+        "patsy",
+        "pelican",
+        "pims",
+        "plotly",
+        "prompt_toolkit",
+        "protobuf",
+        "prov",
+        "pvlib-python",
+        "pydruid",
+        "pyhamcrest",
+        "pylint",
+        "pyomo",
+        "pyscaffold",
+        "pytest-sftpserver",
+        "python-coveralls",
+        "python-dateutil",
+        "python-hdfs",
+        "pathlib2",
+        "pytools",
+        "pyutilib",
+        "pywebhdfs",
+        "qds-sdk",
+        "qrcode",
+        "qt_binder",
+        "resampy",
+        "scikit-beam",
+        "scikit-bio",
+        "scikit-image",
+        "singledispatch",
+        "slackclient",
+        "slicerator",
+        "sphinx",
+        "sphinxcontrib-autoprogram",
+        "stevedore",
+        "structlog",
+        "super_state_machine",
+        "tensorflow",
+        "theano",
+        "tomopy",
+        "vcrpy",
+        "warlock",
+        "websocket-client",
+        "xray-vision"
+    ],
+    "slicerator": [
+        "pims"
+    ],
+    "smmap": [
+        "gitdb"
+    ],
+    "snappy": [
+        "avro",
+        "caffe",
+        "leveldb",
+        "python-snappy"
+    ],
+    "snowballstemmer": [
+        "sphinx"
+    ],
+    "snuggs": [
+        "rasterio"
+    ],
+    "sox": [
+        "bob.io.audio"
+    ],
+    "speaklater": [
+        "flask-babelex"
+    ],
+    "spefile": [
+        "dxchange"
+    ],
+    "sphinx": [
+        "cloud_sptheme",
+        "sphinx-argparse",
+        "sphinxcontrib-autoprogram",
+        "sphinxjp.themecore",
+        "spyder",
+        "stdlib-list"
+    ],
+    "sqlalchemy": [
+        "alembic",
+        "bob.db.avspoof",
+        "bob.db.base",
+        "bob.db.replay",
+        "bob.db.verification.utils",
+        "celery",
+        "flask-sqlalchemy",
+        "geoalchemy2",
+        "geopandas",
+        "ibis-framework",
+        "jupyterhub",
+        "obspy",
+        "psiturk",
+        "pycsw",
+        "spyne",
+        "sunpy"
+    ],
+    "sqlite": [
+        "gdal",
+        "libspatialite",
+        "python"
+    ],
+    "sqlparse": [
+        "django-debug-toolbar"
+    ],
+    "static": [
+        "dj-static"
+    ],
+    "statsmodels": [
+        "category_encoders",
+        "ggplot",
+        "hyperspy",
+        "seaborn"
+    ],
+    "stdlib-list": [
+        "depfinder"
+    ],
+    "stevedore": [
+        "cliff",
+        "keystoneauth1",
+        "openstacksdk"
+    ],
+    "suds-jurko": [
+        "pyomo.extras",
+        "sunpy",
+        "ulmo"
+    ],
+    "suitesparse": [
+        "scikit-sparse",
+        "scikit-umfpack"
+    ],
+    "symengine": [
+        "python-symengine"
+    ],
+    "sympy": [
+        "hyperspy",
+        "pycalphad",
+        "pydy",
+        "pyomo.extras",
+        "quantecon",
+        "yt"
+    ],
+    "tbb": [
+        "openturns",
+        "suitesparse"
+    ],
+    "tblib": [
+        "distributed"
+    ],
+    "tensorflow": [
+        "keras"
+    ],
+    "termcolor": [
+        "circleci-helpers",
+        "nose-timer"
+    ],
+    "terminado": [
+        "notebook"
+    ],
+    "theano": [
+        "keras"
+    ],
+    "thrift": [
+        "happybase"
+    ],
+    "thriftpy": [
+        "happybase",
+        "impyla"
+    ],
+    "tifffile": [
+        "dxchange"
+    ],
+    "tinydb": [
+        "pycalphad"
+    ],
+    "tk": [
+        "matplotlib",
+        "mss",
+        "python"
+    ],
+    "toolz": [
+        "cytoolz",
+        "dask",
+        "distributed",
+        "partd"
+    ],
+    "tornado": [
+        "distributed",
+        "flexx",
+        "flower",
+        "ipykernel",
+        "ipyparallel",
+        "jupyter_contrib_core",
+        "jupyter_contrib_nbextensions",
+        "jupyter_nbextensions_configurator",
+        "jupyterhub",
+        "livereload",
+        "luigi",
+        "mkdocs",
+        "notebook",
+        "rejected",
+        "salt",
+        "terminado"
+    ],
+    "tqdm": [
+        "hyperspy",
+        "pycalphad",
+        "statuspage"
+    ],
+    "traitlets": [
+        "ipykernel",
+        "ipython",
+        "ipywidgets",
+        "jupyter_client",
+        "jupyter_contrib_core",
+        "jupyter_contrib_nbextensions",
+        "jupyter_core",
+        "jupyter_dashboards",
+        "jupyter_nbextensions_configurator",
+        "jupyterhub",
+        "nbconvert",
+        "nbformat",
+        "notebook",
+        "qtconsole"
+    ],
+    "traits": [
+        "apptools",
+        "envisage",
+        "hyperspy",
+        "nipype",
+        "pyface",
+        "traitsui"
+    ],
+    "traitsui": [
+        "apptools",
+        "hyperspy",
+        "qt_binder"
+    ],
+    "trmm_rsl": [
+        "arm_pyart"
+    ],
+    "twisted": [
+        "spyne"
+    ],
+    "tzlocal": [
+        "apscheduler",
+        "channelarchiver"
+    ],
+    "ua-parser": [
+        "user-agents"
+    ],
+    "udunits2": [
+        "cf_units",
+        "cfchecker",
+        "nco"
+    ],
+    "unidecode": [
+        "awesome-slugify",
+        "pelican"
+    ],
+    "uritemplate": [
+        "google-api-python-client"
+    ],
+    "uritemplate.py": [
+        "github3.py"
+    ],
+    "urllib3": [
+        "elasticsearch",
+        "qds-sdk"
+    ],
+    "urwid": [
+        "pudb",
+        "xo"
+    ],
+    "user-agents": [
+        "psiturk"
+    ],
+    "utide": [
+        "pyseidon"
+    ],
+    "vega": [
+        "altair"
+    ],
+    "vincent": [
+        "folium"
+    ],
+    "vlfeat": [
+        "bob.ip.base"
+    ],
+    "vs2008_runtime": [
+        "vc"
+    ],
+    "wcsaxes": [
+        "sunpy"
+    ],
+    "wcwidth": [
+        "prompt_toolkit"
+    ],
+    "websocket-client": [
+        "docker-py",
+        "slackclient"
+    ],
+    "werkzeug": [
+        "flask-wtf",
+        "spyne"
+    ],
+    "wheel": [
+        "pip"
+    ],
+    "whichcraft": [
+        "cookiecutter"
+    ],
+    "widgetsnbextension": [
+        "ipywidgets"
+    ],
+    "wrapt": [
+        "astroid",
+        "debtcollector",
+        "positional",
+        "vcrpy"
+    ],
+    "ws4py": [
+        "tangelo"
+    ],
+    "wtforms": [
+        "flask-wtf",
+        "wtforms-appengine"
+    ],
+    "x264": [
+        "ffmpeg"
+    ],
+    "xarray": [
+        "pycalphad"
+    ],
+    "xerces-c": [
+        "gdal"
+    ],
+    "xlrd": [
+        "glueviz",
+        "orange3",
+        "pyomo.extras"
+    ],
+    "xlsxwriter": [
+        "python-pptx"
+    ],
+    "xraylib": [
+        "scikit-beam"
+    ],
+    "xvfbwrapper": [
+        "nipype"
+    ],
+    "xz": [
+        "avro",
+        "libarchive",
+        "libtiff",
+        "libxml2",
+        "python",
+        "sox"
+    ],
+    "yaml": [
+        "pyyaml",
+        "ruamel_yaml",
+        "uwsgi"
+    ],
+    "zeromq": [
+        "pyzmq"
+    ],
+    "zlib": [
+        "avro",
+        "boost",
+        "cairo",
+        "curl",
+        "erlang",
+        "ffmpeg",
+        "freetype",
+        "gdal",
+        "git",
+        "glib",
+        "graphviz",
+        "hdf4",
+        "hdf5",
+        "hdfeos2",
+        "hdfeos5",
+        "libarchive",
+        "libgd",
+        "libmatio",
+        "libnetcdf",
+        "libpng",
+        "libspatialite",
+        "libtiff",
+        "libxml2",
+        "opencv",
+        "openjpeg",
+        "pillow",
+        "pkg-config",
+        "postgresql",
+        "protobuf",
+        "pyhdf",
+        "pyinstaller",
+        "pynio",
+        "pytables",
+        "python",
+        "qt",
+        "sox",
+        "texlive-core",
+        "thrift-cpp",
+        "trmm_rsl",
+        "u3d",
+        "uwsgi",
+        "vigra"
+    ],
+    "zope.interface": [
+        "spyne"
+    ]
+}
