@@ -12,6 +12,12 @@ env_dir=$(cd "$3/" && pwd)
 
 # -------
 
+# Secret variables aren't exported in the build phase, but they are available
+# from the environment directory.
+export "GH_TOKEN=$(cat $env_dir/GH_TOKEN)"
+
+# -------
+
 # Install vim
 mkdir $STORAGE_LOCN/.vim
 curl https://s3.amazonaws.com/heroku-vim/vim-7.3.tar.gz --location --silent | tar xz -C $STORAGE_LOCN/.vim
@@ -46,7 +52,7 @@ cp -rf ${BUILD_DIR}/compute_dependencies.py ${STORAGE_LOCN}/
 
 wget -q https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
 bash miniconda.sh -b -p $HOME/.conda
-$HOME/.conda/bin/conda install -c conda-forge --yes conda-execute conda-smithy conda-build python=3
+$HOME/.conda/bin/conda install -c conda-forge --yes conda-execute conda-smithy conda-build python=3 tornado
 
 cp -rf $HOME/.conda $STORAGE_LOCN/.conda
 
@@ -59,7 +65,9 @@ cat <<-'EOF' > $build/.profile.d/conda.sh
     # set default encoding to UTF-8
     export LC_ALL=C.UTF-8
     export LANG=C.UTF-8  
-    
+
+    export CONDA_NPY=110
+
     # Compute the dependencies each time the process starts up.
     python ~/compute_dependencies.py --feedstocks-dir ./feedstocks
 EOF
@@ -74,9 +82,12 @@ cat <<-'EOF' > ${STORAGE_LOCN}/.condarc
 EOF
 
 # -------
-
+mkdir -p $STORAGE_LOCN/.conda-smithy
+ln -s $STORAGE_LOCN/.conda-smithy $HOME/.conda-smithy
+echo $GH_TOKEN > ~/.conda-smithy/github.token
 
 mkdir -p $STORAGE_LOCN/feedstocks
+
 $HOME/.conda/bin/feedstocks clone --feedstocks-dir $STORAGE_LOCN/feedstocks
 
 # -------

@@ -20,7 +20,7 @@ def svg_content(package):
     graph.append('ranksep="2"')
     graph.append('splines=polyline;')
     graph.append('ordering=out;')
-    graph.append('{} [shape=box fillcolor=yellow style=filled];'.format(package))
+    graph.append('"{}" [shape=box fillcolor=yellow style=filled];'.format(package))
 
     for pkg in sorted(set(dependencies.get(package, [])) | set(dependants.get(package, []))):
         context = dict(pkg=pkg,
