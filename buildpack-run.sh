@@ -52,7 +52,10 @@ cp -rf ${BUILD_DIR}/compute_dependencies.py ${STORAGE_LOCN}/
 
 wget -q https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
 bash miniconda.sh -b -p $HOME/.conda
-$HOME/.conda/bin/conda install -c conda-forge --yes conda-execute conda-smithy conda-build python=3 tornado
+$HOME/.conda/bin/conda install -c conda-forge --yes conda-execute conda-smithy conda-build python=3 tornado graphviz
+
+# Clear up pkg cache so that the image is a reasonable size.
+$HOME/.conda/bin/conda clean --all --yes
 
 cp -rf $HOME/.conda $STORAGE_LOCN/.conda
 
